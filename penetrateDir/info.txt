@@ -1,0 +1,20 @@
+
+OK 200: 
+http://192.168.0.1/?mod=node&nid=some_thing&op=view: 200 OK
+http://192.168.0.1/?mod=some_thing&op=browse: 200 OK
+http://192.168.0.1/?Open: 200 OK
+http://192.168.0.1/?OpenServer: 200 OK
+http://192.168.0.1/?mod=<script>alert(document.cookie)</script>&op=browse: 200 OK
+http://192.168.0.1/?sql_debug=1: 200 OK
+http://192.168.0.1/?PageServices: 200 OK
+http://192.168.0.1/?wp-cs-dump: 200 OK
+http://192.168.0.1/?pattern=/etc/*&sort=name: 200 OK
+http://192.168.0.1/?D=A: 200 OK
+http://192.168.0.1/?N=D: 200 OK
+http://192.168.0.1/?S=A: 200 OK
+http://192.168.0.1/?\"><script>alert('Vulnerable');</script>: 200 OK
+http://192.168.0.1/?M=A: 200 OK
+
+Payment required 402: 
+
+UNAUTHORIZED 401: 

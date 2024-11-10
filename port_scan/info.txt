@@ -1,0 +1,13 @@
+otvoren port 25
+otvoren port 80
+Host: google.com, Port: 80 - Server: gws
+otvoren port 110
+otvoren port 119
+otvoren port 143
+otvoren port 443
+Host: google.com, Port: 443 - Server: 
+otvoren port 465
+otvoren port 563
+otvoren port 587
+otvoren port 993
+otvoren port 995
