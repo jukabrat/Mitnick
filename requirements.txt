@@ -1,0 +1,13 @@
+pyfiglet
+colorama
+requests
+twill
+futures
+fake-useragent
+selenium
+bs4
+http.client
+PySocks
+wafw00f
+color
+chilkat
